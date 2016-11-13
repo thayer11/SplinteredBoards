@@ -26,7 +26,7 @@ app.listen(port, function() {
 
 //routes setup
 
-var routes = require('./back-end/routes/routes');
+var routes = require('./back-end/routes');
 app.use(routes);
 
 
