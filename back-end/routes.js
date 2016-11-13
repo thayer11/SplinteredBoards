@@ -1,7 +1,8 @@
-var express = require('express'),
-    router = express.Router(),
-    bodyParser = require('body-parser');
+var express = require('express');
+var router = express.Router();
+var bodyParser = require('body-parser');
+var poemController = require('../controllers/poem-Controller');
 
-var poemController = require('../controllers/poem-controller');
 
-module.exports = router; 
+
+module.exports = router
