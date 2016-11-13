@@ -6,5 +6,5 @@ var express = require('express'),
 module.exports = router; 
 
 router.get('/', function (req, res) {
-  res.send('hello world');
+   res.send("TODAY");
 })
